@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bochacoin
+Comment=Bochacoin P2P Cryptocurrency
+Comment[fr]=Bochacoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bochacoin, eşten eşe kriptografik sanal para birimi
+Exec=bochacoin-qt %u
+Terminal=false
+Type=Application
+Icon=bochacoin128
+MimeType=x-scheme-handler/bochacoin;
+Categories=Office;Finance;

@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bochacoin_bg.qm</file>
+        <file alias="ca">locale/bochacoin_ca.qm</file>
+        <file alias="cs">locale/bochacoin_cs.qm</file>
+        <file alias="da">locale/bochacoin_da.qm</file>
+        <file alias="de">locale/bochacoin_de.qm</file>
+        <file alias="en">locale/bochacoin_en.qm</file>
+        <file alias="en_US">locale/bochacoin_en_US.qm</file>
+        <file alias="eo">locale/bochacoin_eo.qm</file>
+        <file alias="es">locale/bochacoin_es.qm</file>
+        <file alias="es_ES">locale/bochacoin_es_ES.qm</file>
+        <file alias="fi">locale/bochacoin_fi.qm</file>
+        <file alias="fr_FR">locale/bochacoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/bochacoin_hi_IN.qm</file>
+        <file alias="hr">locale/bochacoin_hr.qm</file>
+        <file alias="hr_HR">locale/bochacoin_hr_HR.qm</file>
+        <file alias="it">locale/bochacoin_it.qm</file>
+        <file alias="ja">locale/bochacoin_ja.qm</file>
+        <file alias="ko_KR">locale/bochacoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/bochacoin_lt_LT.qm</file>
+        <file alias="nl">locale/bochacoin_nl.qm</file>
+        <file alias="pl">locale/bochacoin_pl.qm</file>
+        <file alias="pt">locale/bochacoin_pt.qm</file>
+        <file alias="pt_BR">locale/bochacoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bochacoin_ro_RO.qm</file>
+        <file alias="ru">locale/bochacoin_ru.qm</file>
+        <file alias="sk">locale/bochacoin_sk.qm</file>
+        <file alias="sv">locale/bochacoin_sv.qm</file>
+        <file alias="tr">locale/bochacoin_tr.qm</file>
+        <file alias="uk">locale/bochacoin_uk.qm</file>
+        <file alias="vi">locale/bochacoin_vi.qm</file>
+        <file alias="zh_CN">locale/bochacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bochacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

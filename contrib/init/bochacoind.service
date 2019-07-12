@@ -1,0 +1,26 @@
+[Unit]
+Description=Bochacoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=bochacoin
+Group=bochacoin
+
+Type=forking
+PIDFile=/var/lib/bochacoind/bochacoind.pid
+
+ExecStart=/usr/bin/bochacoind -daemon -pid=/var/lib/bochacoind/bochacoind.pid \
+          -conf=/etc/bochacoin/bochacoin.conf -datadir=/var/lib/bochacoind
+
+ExecStop=-/usr/bin/bochacoin-cli -conf=/etc/bochacoin/bochacoin.conf \
+         -datadir=/var/lib/bochacoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

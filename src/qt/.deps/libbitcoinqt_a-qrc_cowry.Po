@@ -1,0 +1,1 @@
+qt/libbitcoinqt_a-qrc_bochacoin.o: qt/qrc_bochacoin.cpp

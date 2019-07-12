@@ -1,0 +1,26 @@
+# /etc/conf.d/bochacoind: config file for /etc/init.d/bochacoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bochacoin/bochacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bochacoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bochacoind.pid"
+
+# Where to write bochacoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bochacoind"
+
+# User and group to own bochacoind process
+#BITCOIND_USER="bochacoin"
+#BITCOIND_GROUP="bochacoin"
+
+# Path to bochacoind executable
+#BITCOIND_BIN="/usr/bin/bochacoind"
+
+# Nice value to run bochacoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
