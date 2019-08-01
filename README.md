@@ -36,11 +36,6 @@ P2P port : 28001
 Rpc port : 6868
 
 
-Features:
-
-For blockchain stability, team start 20 masternodes.
-
-Masternodes can be set up only from coins bought from Bochacoin team.
 
   Website : https://bochacoin.com  
   Whitepaper : https://bochacoin.com/pdf/wp-EN.pdf  
